@@ -1,2 +1,1 @@
-# sreetejadusi.github.io
-Personal Portfolio
+# Sree Teja Dusi
