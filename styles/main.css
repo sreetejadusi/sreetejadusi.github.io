@@ -1,0 +1,49 @@
+#main{
+    background-image: linear-gradient(275deg,#2B4570, #7180AC, #A8D0DB, #E49273);
+    backdrop-filter: blur(100em);
+}
+
+#open{
+    width: 500px;
+    height: 500px;
+    border: solid 0.1px rgba(255, 255, 255, 0.166);
+    border-radius: 20%;
+    background-color: rgba(255, 255, 255, 0.055);
+    backdrop-filter: blur(5px);
+    padding: 0.7em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+#socialBar{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.social{
+    padding: 0 20px;
+    font-size: 1.7em;
+    transition-duration: 500ms;
+}
+
+.social:hover{
+    font-size: 2em;
+}
+
+#profile{
+    width: 200px;
+    margin: -70px;
+    backdrop-filter: blur(20px);
+    background-color: white;
+    border-radius: 100%;
+    
+}
