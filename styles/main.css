@@ -24,16 +24,13 @@ a:hover{
 }
 
 #socialBar{
-    display: flex;
     list-style-type: none;
-    align-items: center;
-    justify-content: center;
+    padding-left: 35px;
 }
 
 .social{
-    padding: 0 20px;
     font-size: 1.7em;
-    transition-duration: 500ms;
+    transition-duration: 200ms;
 }
 
 .social:hover{
@@ -41,10 +38,17 @@ a:hover{
 }
 
 #profile{
-    width: 200px;
+    max-width: 200px;
+    width: auto;
     margin: -70px;
     backdrop-filter: blur(20px);
     background-color: white;
     border-radius: 100%;
     
+}
+
+#aboutText{
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 15px;
 }
