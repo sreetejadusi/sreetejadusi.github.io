@@ -64,17 +64,59 @@ a:hover{
     margin-left: -70px;
 }
 
+#classification{
+    font-size: 20px;
+}
+
+#gdg{
+    width: 10em;
+    padding-left: 5px;
+    margin-top: -5px;
+}
+
+#abouthead{
+    font-size: 30px;
+}
+
 @media screen and (max-width : 576px) {
     #profilediv{
         margin: 0;
     }
 
     #profile{
-        margin-top: -100px;
+        margin-top: -140px;
     }
 
     #main{
-        padding: 30px;
+        padding: 12.5vh 5vh 0 5vh;
+    }
+
+    #open{
+        max-height: 800px;
+    }
+
+    #classification{
+        font-size: 15px;
+    }
+
+    #abouthead{
+        font-size: 20px;
+    }
+
+    #aboutText{
+        line-height: 25px;
+    }
+
+    .social{
+        font-size: 1.3em;
+    }
+
+    .social:hover{
+        font-size: 1.5em;
     }
     
+    #gdg{
+        width: 9em;
+        height: auto;
+    }
 }
