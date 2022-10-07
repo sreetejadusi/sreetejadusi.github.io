@@ -1,10 +1,7 @@
-@font-face {
-    font-family: GoogleSans;
-    src: url(/assets/GoogleSans-Regular.ttf);
-}
+@import url('http://fonts.cdnfonts.com/css/google-sans');
 
 *{
-    font-family: GoogleSans;
+    font-family: 'Product Sans', sans-serif;
 }
 
 #main{
